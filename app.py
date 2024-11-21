@@ -9,8 +9,8 @@ def db_connection():
     return pymysql.connect(
         host="localhost",
         user="root",
-        password="Deep@$915736",
-        db="auth_system",
+        password="your password",
+        db="database name",
         cursorclass=pymysql.cursors.DictCursor
     )
     
